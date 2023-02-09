@@ -5,7 +5,8 @@
 
 @media (max-width: 800px) {
   .beat-font::after {
-    content: '' !important;
+    font-size: 12px !important;
+    transform: translateY(0%) !important;
   }
 }
 
@@ -19,13 +20,13 @@
 .beat-font {
   font-family: "Babylonica";
   display: flex;
-  justify-content: end;
-  padding-right: 2vw;
+  justify-content: center;
   align-items: center;
 }
 .beat-font::after {
-    font-size: 26px;
+    font-size: 30px;
     content: 'You are my today and all of my tomorrows.';
+    transform: translateY(-80%);
 }
 *,
 *::after,
