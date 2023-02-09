@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ci": "git pull && pm2 restart gift-one",
     "start": "serve -p 4000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
